@@ -12,7 +12,7 @@
   "scripts": {
     "test": "standard && node \"./node_modules/mocha/bin/_mocha\" --timeout 500 test.js",
     "coverage": "standard && \"./node_modules/.bin/istanbul\" cover -x test.js ./node_modules/mocha/bin/_mocha -- --timeout 500 test.js",
-    "codacy": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/.bin/codacy-coverage"
+    "codacy": "istanbul cover -x test.js ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/.bin/codacy-coverage"
   },
   "dependencies": {
     "glob-all": "^3.1.0",
