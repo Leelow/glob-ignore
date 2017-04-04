@@ -5,6 +5,7 @@ clear-directoy.iml
 .idea
 
 coverage
+files
 test.js
 .gitignore
 .appveyor.yml
