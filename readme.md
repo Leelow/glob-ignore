@@ -1,5 +1,6 @@
 # glob-ignore
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Leelow/glob-ignore.svg)](https://greenkeeper.io/)
 [![NPM downloads][downloads-image]][downloads-url]
 [![Build Status][travis-image]][travis-url]
 [![Build Status][appveyor-image]][appveyor-url]
