@@ -1,0 +1,40 @@
+{
+  "name": "glob-ignore",
+  "version": "0.9.0",
+  "description": "Match files using the patterns the shell uses, like stars and stuff.",
+  "main": "glob-ignore.js",
+  "license": "MIT",
+  "author": {
+    "name": "Leo Lozach",
+    "email": "leo.lozach@gmail.com",
+    "url": "https://github.com/Leelow"
+  },
+  "scripts": {
+    "test": "standard && node \"./node_modules/mocha/bin/_mocha\" --timeout 100 test.js",
+    "coverage": "standard && \"./node_modules/.bin/istanbul\" cover ./node_modules/mocha/bin/_mocha -- --timeout 100 --recursive -R spec test.js",
+    "codacy": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/.bin/codacy-coverage"
+  },
+  "dependencies": {
+    "glob-all": "^3.1.0",
+    "ignore": "^3.2.6"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "standard": "^9.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leelow/glob-ignore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Leelow/glob-ignore/issues"
+  },
+  "homepage": "https://github.com/Leelow/glob-ignore#readme",
+  "keywords": [
+    "glob",
+    "ignore",
+    "globignore",
+    "pattern"
+  ]
+}

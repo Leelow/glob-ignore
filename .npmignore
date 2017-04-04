@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+
+clear-directoy.iml
+.idea
+
+coverage
+test.js
+.gitignore
+.appveyor.yml
+.travis.yml
