@@ -2,9 +2,9 @@
 
 [![NPM downloads][downloads-image]][downloads-url]
 [![Build Status][travis-image]][travis-url]
-<!--- [![Build Status][appveyor-image]][appveyor-url] --->
-<!--- [![Codacy Coverage][codacy-coverage-image]][codacy-coverage-url] --->
-<!--- [![Codacy Grade][codacy-grade-image]][codacy-grade-url] --->
+[![Build Status][appveyor-image]][appveyor-url]
+[![Codacy Coverage][codacy-coverage-image]][codacy-coverage-url]
+[![Codacy Grade][codacy-grade-image]][codacy-grade-url]
 [![Dev-dependencies][dev-dependencies-image]][dev-dependencies-url]
 [![JavaScript Style Guide][javascript-standard-image]][javascript-standard-url]
 
@@ -50,11 +50,11 @@ $ npm run coverage
 [downloads-url]: https://www.npmjs.com/package/glob-ignore
 [travis-image]: https://travis-ci.org/Leelow/glob-ignore.svg?branch=master
 [travis-url]: https://travis-ci.org/Leelow/glob-ignore
-<!--- [appveyor-image]: https://ci.appveyor.com/api/projects/status/32aj3ap0kelnbdqt?svg=true --->
+[appveyor-image]: https://ci.appveyor.com/api/projects/status/8akmc1deeva0vh9i?svg=true
 [appveyor-url]: https://ci.appveyor.com/project/Leelow/glob-ignore
-<!--- [codacy-coverage-image]: https://api.codacy.com/project/badge/Coverage/be1d56eb162d41a586ecac79685161f7 --->
+[codacy-coverage-image]: https://api.codacy.com/project/badge/Coverage/12d65abc0f0b42009532571e3c382cb0
 [codacy-coverage-url]: https://www.codacy.com/app/Leelow/glob-ignore?utm_source=github.com&utm_medium=referral&utm_content=Leelow/glob-ignore&utm_campaign=Badge_Coverage
-<!--- [codacy-grade-image]: https://api.codacy.com/project/badge/Grade/be1d56eb162d41a586ecac79685161f7 --->
+[codacy-grade-image]: https://api.codacy.com/project/badge/Grade/12d65abc0f0b42009532571e3c382cb0
 [codacy-grade-url]: https://www.codacy.com/app/Leelow/glob-ignore?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Leelow/glob-ignore&amp;utm_campaign=Badge_Grade
 [dev-dependencies-image]: https://david-dm.org/leelow/glob-ignore/dev-status.svg
 [dev-dependencies-url]: https://david-dm.org/leelow/glob-ignore?type=dev
