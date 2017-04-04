@@ -30,7 +30,7 @@ glob('**', function(err, res) {            // async
 glob('**');                                // sync
 
 glob('**', 'dir/to/filter/**');            // the second arg is a filter
-glob(['a/**', 'b/**'], ['c/**', 'd/**']) ; // multiple patterns are allowed 
+glob(['a/**', 'b/**'], ['c/**', 'd/**']);  // multiple patterns are allowed 
 
 ```
 
