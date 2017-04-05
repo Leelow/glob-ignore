@@ -1,6 +1,6 @@
 {
   "name": "glob-ignore",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Match files using the patterns the shell uses, like stars and stuff.",
   "main": "glob-ignore.js",
   "license": "MIT",
