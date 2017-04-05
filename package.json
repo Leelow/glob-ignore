@@ -22,7 +22,7 @@
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
     "mock-require": "^2.0.1",
-    "standard": "^9.0.2",
+    "standard": "^10.0.0",
     "codacy-coverage": "^2.0.1"
   },
   "repository": {
