@@ -23,7 +23,7 @@
     "mocha": "^4.0.0",
     "mock-require": "^2.0.1",
     "standard": "^10.0.0",
-    "codacy-coverage": "^2.0.1"
+    "codacy-coverage": "^3.1.0"
   },
   "repository": {
     "type": "git",
