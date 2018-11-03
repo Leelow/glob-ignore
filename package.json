@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "glob-all": "^3.1.0",
-    "ignore": "^3.2.6"
+    "ignore": "^5.0.4"
   },
   "devDependencies": {
     "istanbul": "^0.4.5",
